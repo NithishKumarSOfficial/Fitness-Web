@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Register - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#" style="color: rgba(221,214,47,0.9);">FitnessHub</a>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto"></ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page registration-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h1>TRAINER SIGNUP</h1>
+                </div>
+                <form action="trainersignup.php" method="POST" style="margin-bottom: 5px;margin-top: -2px;">
+                    <div class="form-group"><label for="name">Name</label><input class="form-control item" name="name" type="text" id="name"></div>
+                    <div class="form-group"><label for="password">Email</label><input class="form-control" name="email" type="email"></div>
+                    <div class="form-group"><label for="email">Mobile Number</label><input class="form-control" name="mobile"type="tel"></div>
+                    <div class="form-group"><label for="category">Category</label><input name="category"><select class="form-control"><optgroup label="This is a group"><option value="1" selected="">Gym</option><option value="2">Yoga</option></optgroup></select></div>
+                    <div
+                        class="form-group"><label>Experience(in Year)</label><input class="form-control" name="experience" type="number"></div>
+            <div class="form-group"><label>Location</label><input class="form-control" name="location" type="text"></div>
+            <div class="form-group"><label>Work Place Name</label><input class="form-control" name="workplacename" type="text"></div>
+            <div class="form-group"><label>About You</label><input name="aboutyou"><textarea class="form-control"></textarea></div>
+            <div class="form-group"><label>Paste Link</label><input class="form-control" name="link" type="text"></div><button class="btn btn-primary" type="button" style="margin: 4px;margin-left: 167px;height: 38px;background-color: rgb(125,128,131);">Read me</button><button class="btn btn-primary btn-block"
+                type="submit" name="registraionbutton" style="background-color: rgb(204,187,38);">REGISTER</button></form>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer dark">
+        <div class="footer-copyright">
+            <p>© 2018 Copyright FitnessHub</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
+</body>
+
+</html>
